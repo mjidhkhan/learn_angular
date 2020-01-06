@@ -1,2 +1,6 @@
-<p>hello works!</p>
-<input type="text" [Value]="MyVariable" />
+
+	<div class="container bg-gray-700">
+		<p class="component-title">Hello Component</p>
+		<input type="text" value="{{ myVariable }}"  [disabled]="myDisabledValue"/>
+		<button class="btn black bg-gray-800 mt-2 tracking-wide text-xl" (click)="myFunction()"> Click Me! </button>
+	</div>
